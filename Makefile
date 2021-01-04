@@ -9,3 +9,6 @@ eunit:
 
 shell:
 	rebar3 shell
+
+cover:
+	rebar3 do ct, cover
